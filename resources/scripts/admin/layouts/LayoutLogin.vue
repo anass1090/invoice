@@ -131,7 +131,7 @@ const pageHeading = computed(() => {
     return window.login_page_heading
   }
 
-  return 'Simple Invoicing for Individuals Small Businesses'
+  return "Een simpel facturatiesysteem voor zelfstandigen en MKB'ers."
 })
 
 const pageDescription = computed(() => {
@@ -139,7 +139,7 @@ const pageDescription = computed(() => {
     return window.login_page_description
   }
 
-  return 'InvoiceShelf helps you track expenses, record payments & generate beautiful invoices & estimates.'
+  return 'Omnifex helpt je bij het bijhouden van uitgaven, het registreren van betalingen en het genereren van prachtige facturen en offertes.'
 })
 
 const copyrightText = computed(() => {
