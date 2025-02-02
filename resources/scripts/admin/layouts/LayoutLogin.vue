@@ -146,7 +146,7 @@ const copyrightText = computed(() => {
   if (window.copyright_text) {
     return window.copyright_text
   }
-  return 'Copyright @ IDEOLOGIX MEDIA DOOEL.'
+  return 'Copyright @ OmnifexIT.'
 })
 
 </script>
