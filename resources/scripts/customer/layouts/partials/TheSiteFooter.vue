@@ -18,10 +18,10 @@
   >
     Powered by
     <a
-      href="http://bytefury.com/"
+      href="http://omnifexit.nl/"
       target="_blank"
       class="pl-1 font-normal text-gray-900"
-      >Bytefury
+      >OmnifexIT
     </a>
   </footer>
 </template>

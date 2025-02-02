@@ -20,16 +20,7 @@
       "
     >
       <div class="w-full">
-        <MainLogo
-          v-if="!loginPageLogo"
-          class="block w-48 h-auto max-w-full mb-32 text-primary-500"
-        />
-
-        <img
-          v-else
-          :src="loginPageLogo"
-          class="block w-48 h-auto max-w-full mb-32 text-primary-500"
-        />
+        <img src="/logo-blue.png" class="block w-60 h-auto max-w-full m-auto mb-32 text-primary-500" alt="omnifex logo">
 
         <router-view />
 
@@ -129,12 +120,11 @@
 
 <script setup>
 import NotificationRoot from '@/scripts/components/notifications/NotificationRoot.vue'
-import MainLogo from '@/scripts/components/icons/MainLogo.vue'
 import LoginBackground from '@/scripts/components/svg/LoginBackground.vue'
 import LoginPlanetCrater from '@/scripts/components/svg/LoginPlanetCrater.vue'
 import LoginBottomVector from '@/scripts/components/svg/LoginBottomVector.vue'
 import LoginBackgroundOverlay from '@/scripts/components/svg/LoginBackgroundOverlay.vue'
-import { computed, ref } from 'vue'
+import { computed } from 'vue'
 
 const pageHeading = computed(() => {
   if (window.login_page_heading) {
@@ -159,13 +149,6 @@ const copyrightText = computed(() => {
   return 'Copyright @ IDEOLOGIX MEDIA DOOEL.'
 })
 
-const loginPageLogo = computed(() => {
-  if (window.login_page_logo) {
-    return window.login_page_logo
-  }
-
-  return false
-})
 </script>
 
 <style lang="scss" scoped>

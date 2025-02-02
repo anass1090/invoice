@@ -34,27 +34,13 @@
         ><i></i><i></i> <i></i><i></i><i></i> <i></i><i></i><i></i> <i></i
         ><i></i><i></i> <i></i><i></i><i></i> <i></i><i></i><i></i>
       </div>
-      <MainLogo
-        class="
-          absolute
-          block
-          h-auto
-          max-w-full
-          transform
-          -translate-x-1/2 -translate-y-1/2
-          w-28
-          text-primary-400
-          top-1/2
-          left-1/2
-        "
-        alt="InvoiceShelf Logo"
-      />
+      <img src="/logo-blue.png" class="absolute block h-auto max-w-full transform -translate-x-1/2 -translate-y-1/2 w-28 text-primary-400 top-1/2 left-1/2" alt="omnifex logo">
+
     </div>
   </div>
 </template>
 
 <script setup>
-import MainLogo from '@/scripts/components/icons/MainLogo.vue'
 
 const props = defineProps({
   showBgOverlay: {

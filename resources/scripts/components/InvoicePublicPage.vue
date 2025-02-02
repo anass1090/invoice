@@ -64,8 +64,8 @@ I
         class="flex items-center justify-center mt-4 text-gray-500 font-normal"
       >
         Powered by
-        <a href="https://invoiceshelf.com" target="_blank">
-          <img :src="getLogo()" class="h-4 ml-1 mb-1" />
+        <a href="https://omnifexit.nl" target="_blank">
+          <img alt="omnifex logo" src="/logo-blue.png" class="h-4 ml-1 mb-1" />
         </a>
       </div>
     </div>
